@@ -19,13 +19,6 @@ Take one down, pass it around, 1 bottle of beer on the wall!
 1 bottle of beer on the wall, 1 bottle of beer.
 Take one down, pass it around, no more bottles of beer on the wall!
 ```
-*Figure 1*.  Text of the song 99 Bottles of Beer.
-
-Ah, the good old [99 Bottles of Beer](http://en.wikipedia.org/wiki/99_Bottles_of_Beer) song (see Figure 1).  Are we familiar with the song?
-
-We're going to model someone singing this song by writing a method which produces the lyrics for the entire song.  We'll write a method `bottle_song_lyrics`, and in our virtual beer hall, calling `bottle_song_lyrics(99)` represents asking our rowdy neighbor to start singing 99 Bottles of Beer.
-
-The verses of this song are all very similar—at least, until there's only one bottle of beer on the wall.  As we can imagine, this challenge deals with handling repetition.
 
 
 ## Releases
@@ -52,8 +45,3 @@ What other improvements can we make? Let's try to find at least three.
 
 ### Release 2: Write the Lyrics Recursively (Optional)
 If our method uses an iterative solution—maybe a form of looping like `while`, `until`, etc.—we can update our method to use [recursion](http://en.wikipedia.org/wiki/Recursion_(computer_science)). The recursive version of the `bottle_song_lyrics` method would have the same output as our iterative solution, but it would have a different implementation.
-
-
-## Conclusion
-99 Bottles of Beer is a very repetitive song.  The lyrics are repeated almost exactly the same over and over and over ... Except for a few cases which need to be treated uniquely.  Special cases can lead to code that is a mess of hard-to-read conditional statements, and we should be deliberate to handle special cases in an elegant, readable manner.
-
